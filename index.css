@@ -1,7 +1,49 @@
+@font-face {
+  font-family: AnandaBlack;
+  src: url(./assets/fonts/AnandaBlack.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #76b3f7;
+  color: white;
+
+  padding: 10px 0;
+}
+
+#header_container {
+  width: 1300px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-family: AnandaBlack;
+}
+
+ul {
+  list-style: none;
+
+  display: flex;
+}
+
+li {
+  margin-left: 15px;
+}
+
+li:hover {
+  cursor: pointer;
+  font-weight: bold;
 }
 
 img {
