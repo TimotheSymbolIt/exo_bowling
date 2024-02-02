@@ -3,3 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+footer {
+  background-color: #76b3f7;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+
+footer span {
+  margin: 15px;
+}
