@@ -108,3 +108,54 @@ h2 {
 .informations_activite p:first-child {
   margin-right: 10px;
 }
+
+#nous_contacter {
+  max-width: 1300px;
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  margin: 20px 0;
+}
+
+#bloc_inputs {
+  display: flex;
+  flex-direction: row;
+}
+
+#inputs_container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#inputs_container:first-child {
+  margin-right: 10px;
+}
+
+input {
+  padding: 10px;
+}
+
+input:nth-child(2) {
+  margin: 10px 0;
+}
+
+textarea {
+  height: 100%;
+  padding: 10px;
+}
+
+#button {
+  background-color: #76b3f7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+
+#button:hover {
+  filter: brightness(95%);
+  cursor: pointer;
+}
