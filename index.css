@@ -10,6 +10,15 @@
   font-family: "Roboto", sans-serif;
 }
 
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
 header {
   background-color: #76b3f7;
   color: white;
@@ -214,4 +223,20 @@ footer {
 
 footer span {
   margin: 15px;
+}
+
+#float_button {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 50px;
+  padding: 10px;
+  background-color: rgb(236, 236, 236);
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
